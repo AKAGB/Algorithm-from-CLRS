@@ -1,4 +1,9 @@
-def InsertionSort(a):
+def Sort(a):
+    """
+    传入参数为列表，返回有序列表(升序)
+    时间复杂度为O(n^2)
+    """
+
     for j in range(1, len(a)):
         key = a[j]
         i = j - 1
@@ -13,7 +18,7 @@ def main():
     numbers = []
     for each in range(num):
         numbers.append(int(input()))
-    InsertionSort(numbers)
+    Sort(numbers)
     print('Sorted list:', str(numbers))
 
 if __name__ == '__main__':

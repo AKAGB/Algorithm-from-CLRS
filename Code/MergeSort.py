@@ -1,4 +1,8 @@
 def Merge(A, p, q, r):
+    """
+    参数分别为列表，首元素下标，中间元素下标，结尾元素下标
+    返回合并后的结果
+    """
     n1 = q - p + 1
     n2 = r - q
     L = A[p:q+1]
@@ -19,6 +23,10 @@ def Merge(A, p, q, r):
             j += 1
 
 def MergeSort(A, p, r):
+    """
+    传入参数为列表、首元素下标、结尾元素下标
+    返回排序好的序列
+    """
     if p < r:
         q = (p + r) // 2
         MergeSort(A, p, q)
