@@ -1,3 +1,3 @@
-# Algorithm-from-CLRS
+# Leetcode-Python
 
-Algorithm from CLRS implemented by python3.5.
+Leetcode练习，Python3实现。
